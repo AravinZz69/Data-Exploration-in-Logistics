@@ -57,7 +57,7 @@ def add_route_features(df: pd.DataFrame) -> pd.DataFrame:
     Adds:
         route_distance_per_stop  – distance / number of stops
         vehicle_utilization      – load_weight / vehicle_capacity (0-1)
-        avg_speed_kmh            – total_distance / total_time (hours)
+        avg_speed_kmh             – total_distance / total_time (hours)
     """
     df = df.copy()
 
@@ -79,7 +79,7 @@ def add_route_features(df: pd.DataFrame) -> pd.DataFrame:
 def add_inventory_features(df: pd.DataFrame, window: int = 7) -> pd.DataFrame:
     """
     Expects a DataFrame indexed by (date, warehouse_id, product_id) or with
-    those columns present.  Adds rolling demand and demand variability.
+    those columns present. Adds rolling demand and demand variability.
 
     Requires columns: date, warehouse_id, product_id, demand, closing_stock.
     Adds:
