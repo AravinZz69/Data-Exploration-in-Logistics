@@ -37,13 +37,13 @@ A retail company operates **3 regional distribution centers (DCs)** replenishing
 
 | KPI | Target |
 |---|---|
-| On-Time Delivery Rate | Higher |
-| Stockout Rate | Lower |
-| Inventory Turnover | Higher (within service constraints) |
-| Average Delivery Lead Time | Lower |
-| Transportation Cost / Delivery | Lower |
-| Route Distance per Delivery | Lower |
-| Vehicle Utilization | Higher (without service loss) |
+| On-Time Delivery Rate | ↑ Higher |
+| Stockout Rate | ↓ Lower |
+| Inventory Turnover | ↑ Higher (within service constraints) |
+| Average Delivery Lead Time | ↓ Lower |
+| Transportation Cost / Delivery | ↓ Lower |
+| Route Distance per Delivery | ↓ Lower |
+| Vehicle Utilization | ↑ Higher (without service loss) |
 
 ---
 
